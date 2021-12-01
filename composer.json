@@ -1,0 +1,21 @@
+{
+    "name": "vendi-advertising/polyfill-php-82",
+    "type": "library",
+    "description": "Temporary polyfill for PHP 8.2",
+    "keywords": ["polyfill", "shim", "compatibility", "portable"],
+    "homepage": "https://vendiadvertising.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Haas",
+            "email": "chris@vendiadvertising.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "classmap": [ "Resources/stubs" ]
+    },
+    "minimum-stability": "dev"
+}
